@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Spinnaker&display=swap');
+
+body {
+    margin: 80px auto;
+    max-width: 60%;
+    font-family: 'Spinnaker', sans-serif;
+    background: linear-gradient(#feb360, #8e92b5);
+}
+
+.hero-section {
+    background-image: url("/img/graz-austria.jpg");
+    height: 800px;
+    background-size: cover;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-bottom: 3px solid #76cca5;
+}
+
+.cta {
+    background-color: #1a2a46;
+    font-size: 48px; 
+}
+
+.cta a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activities-section {
+    height: 800px;
+    background-color: #344056;
+}
+
+.activities-section > * {
+    color: #fff;
+}
+
+.act-cols img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.act-title {
+    font-size: 24px;
+    padding-top: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+.act-cols div {
+    border: 2px solid #cf5c36;
+    padding: 20px 10px 10px 10px; 
+    border-radius: 0 0 20px 20px;
+}
+
+.act-cols div:hover {
+    box-shadow: 5px 5px 10px #cf5c36;
+}
+
+.act-cols {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.act-cols > * {
+    width: 350px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.act-cols p {
+    font-size: 14px;
+}
+
+.tagline {
+    text-align: center;
+    background-color: #3e556f;    
+}
+
+.cta,
+.tagline {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+    background-color: #f6d8b4;
+    padding: 320px 0 160px 0;
+    border-radius: 0 0 50px 50px;
+    border-top: 3px solid #76cca5;
+}
+
+.guide-card {
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #344056;
+    color: #fff;
+}
+
+.guide-card img {
+    border: 2px #76cca5 solid;
+}
+
+.guide-card h3 {
+    text-align: center;
+    text-decoration: underline #76cca5;
+}
+
+.arnold {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
